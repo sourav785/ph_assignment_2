@@ -10,6 +10,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 /* header-section-styles */
+.banner,
 .header {
   margin-top: 0;
 }
@@ -50,6 +51,107 @@ body {
   padding: 0px 20px;
 }
 
+/* banner-section-styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 5.5rem;
+}
+.text-side {
+  max-width: 32.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+}
+.banner-heading {
+  color: white;
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.banner-heading > .shape {
+  font-weight: 400;
+}
+.text-side .banner-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.banner-btns {
+  display: flex;
+  gap: 0.875rem;
+}
+.primary-btn {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 42px;
+  outline: none;
+  border: none;
+  background-color: #e6533c;
+  text-transform: capitalize;
+}
+.download-btn {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.image-side {
+  max-width: 21.875rem;
+  text-align: center;
+  position: relative;
+}
+.hero-image {
+  height: 100%;
+}
+.tutorials,
+.workouts {
+  height: 96px;
+  width: 206px;
+  position: absolute;
+  content: "";
+  padding: 20px 23px;
+  text-align: left;
+  background: rgba(48, 48, 48, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+}
+.tutorials {
+  top: 421px;
+  left: -113px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.workouts {
+  top: 125px;
+  right: -74px;
+}
+.tutorials > .red-circle {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+}
+.count {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.workout-desc,
+.tutorial-desc {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /* shared-section-styles */
 .orangy-red {
   color: #e6533c;
@@ -75,5 +177,45 @@ body {
     display: block;
     color: white;
     font-size: 30px;
+  }
+  .banner {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .banner-heading {
+    font-size: 2.25rem;
+  }
+  .banner-heading,
+  .banner-desc {
+    max-width: 255px;
+  }
+  .workouts {
+    top: 65px;
+    right: -30px;
+    width: 146px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tutorials {
+    width: 156px;
+    height: 74px;
+    top: 255px;
+    left: 25px;
+  }
+  .tutorials > .red-circle {
+    height: 30px;
+    width: 30px;
+  }
+  .count {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 3px;
+  }
+  .workout-desc,
+  .tutorial-desc {
+    font-size: 10px;
   }
 }
