@@ -229,6 +229,23 @@ section {
   background-position: 70% 34%;
   border-radius: 18px;
 }
+/* BMI-calculator-heading-section-styles */
+.bmi-heading {
+  color: white;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: left;
+}
+.bmi-heading .section-heading {
+  font-weight: 500;
+  text-align: left;
+}
+.bmi-heading .section-desc {
+  text-align: left;
+}
+.bmi-heading .texts {
+  margin: 30px 0px;
+}
 
 /* shared-section-styles */
 .orangy-red {
