@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   box-sizing: border-box;
 }
+
 body {
   background: black;
   font-family: "Inter", sans-serif;
@@ -23,12 +25,15 @@ body {
   margin-top: 3.125rem;
   margin-bottom: 2rem;
 }
+
 .logo {
   font-size: 2.25rem;
 }
+
 .hamburger {
   display: none;
 }
+
 .menu {
   display: flex;
   justify-content: center;
@@ -38,17 +43,20 @@ body {
   border-radius: 39px;
   padding: 4px;
 }
+
 .menu li a {
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 600;
   color: white;
 }
+
 .menu li:first-of-type a {
   background-color: #e6533c;
   padding: 8px 20px;
   border-radius: 46px;
 }
+
 .menu li:last-of-type a {
   padding: 0px 20px;
 }
@@ -59,6 +67,7 @@ body {
   justify-content: space-between;
   gap: 5.5rem;
 }
+
 .text-side {
   max-width: 32.5rem;
   display: flex;
@@ -66,15 +75,18 @@ body {
   justify-content: center;
   gap: 28px;
 }
+
 .banner-heading {
   color: white;
   font-size: 4.875rem;
   font-weight: 900;
   line-height: 120%;
 }
+
 .banner-heading > .shape {
   font-weight: 400;
 }
+
 .text-side .banner-desc {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
@@ -82,10 +94,12 @@ body {
   line-height: 1.5rem;
   letter-spacing: 0.5px;
 }
+
 .banner-btns {
   display: flex;
   gap: 0.875rem;
 }
+
 .primary-btn {
   cursor: pointer;
   font-size: 18px;
@@ -98,18 +112,22 @@ body {
   background-color: #e6533c;
   text-transform: capitalize;
 }
+
 .download-btn {
   background-color: transparent;
   border: 1px solid white;
 }
+
 .image-side {
   max-width: 21.875rem;
   text-align: center;
   position: relative;
 }
+
 .hero-image {
   height: 100%;
 }
+
 .tutorials,
 .workouts {
   height: 96px;
@@ -123,6 +141,7 @@ body {
   border-radius: 12px;
   backdrop-filter: blur(20px);
 }
+
 .tutorials {
   top: 421px;
   left: -113px;
@@ -130,10 +149,12 @@ body {
   gap: 12px;
   align-items: center;
 }
+
 .workouts {
   top: 125px;
   right: -74px;
 }
+
 .tutorials > .red-circle {
   display: inline-block;
   height: 40px;
@@ -141,12 +162,14 @@ body {
   border-radius: 50%;
   background-color: #e6533c;
 }
+
 .count {
   color: rgb(250, 250, 249);
   font-size: 24px;
   font-weight: 900;
   margin-bottom: 8px;
 }
+
 .workout-desc,
 .tutorial-desc {
   color: rgba(239, 237, 232, 0.65);
@@ -158,21 +181,25 @@ body {
 section {
   margin: 100px 0px;
 }
+
 .change-habits {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 58px;
 }
+
 .texts {
   max-width: 670px;
   margin: 0 auto;
   text-align: center;
 }
+
 .schedule-habits {
   display: flex;
   gap: 40px;
 }
+
 .frames {
   display: flex;
   flex-direction: column;
@@ -181,18 +208,21 @@ section {
   align-items: center;
   gap: 30px;
 }
+
 .frame-img {
   height: 180px;
   width: 180px;
   border-radius: 100%;
   border: 4px solid rgba(255, 255, 255, 0.1);
 }
+
 .frame-heading {
   color: white;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
 }
+
 .frame-desc {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -210,6 +240,7 @@ section {
   gap: 190px;
   justify-content: space-between;
 }
+
 .run-extra > .texts {
   margin: 0;
   max-width: 27.5rem;
@@ -219,10 +250,12 @@ section {
   justify-content: space-between;
   text-align: left;
 }
+
 .run-extra .section-heading {
   text-align: left;
   margin: 0;
 }
+
 .image-section {
   max-width: 45%;
   min-width: 350px;
@@ -232,6 +265,7 @@ section {
   background-position: 70% 34%;
   border-radius: 18px;
 }
+
 /* BMI-calculator-heading-section-styles */
 .bmi-heading {
   color: white;
@@ -239,10 +273,12 @@ section {
   font-weight: 900;
   text-align: left;
 }
+
 .bmi-heading .section-heading {
   font-weight: 500;
   text-align: left;
 }
+
 .bmi-heading .section-desc {
   text-align: left;
 }
@@ -254,47 +290,58 @@ section {
   display: flex;
   gap: 44px;
 }
+
 .calculate-bmi .chart {
   width: 445px;
 }
+
 .calculate-bmi {
   margin-top: -34px;
 }
+
 .calculate-bmi .container {
-  flex-direction: column;
+  flex-direction: row;
 }
+
 .bg-color {
   background: rgb(34, 34, 34);
 }
+
 .chart .bmi-heading {
   margin-bottom: 52px;
 }
+
 .chart-table {
   border-collapse: collapse;
   max-width: 310px;
 }
+
 .chart-table td,
 th {
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: left;
   padding: 8px;
 }
+
 .chart-table th {
   color: white;
   font-size: 16px;
   font-weight: 500;
 }
+
 .chart-table td {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
 }
+
 .calc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 34px;
 }
+
 .calc .bmi-desc {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -303,15 +350,18 @@ th {
   margin-top: 14px;
   text-align: left;
 }
+
 .calc-info {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 12px;
   width: 100%;
 }
+
 .calc-info .activity {
   grid-column: 1 / -1;
 }
+
 .calc-info input,
 select {
   padding: 12px 40px 12px 20px;
@@ -320,9 +370,11 @@ select {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
+
 .calc-info input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .calc-info select {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -333,12 +385,14 @@ select {
   flex-direction: column;
   gap: 58px;
 }
+
 .trainer {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 18px;
 }
+
 .trainers {
   border-radius: 18px;
   display: grid;
@@ -347,14 +401,17 @@ select {
   gap: 20px;
   padding: 20px;
 }
+
 .bg-color2 {
   background: rgba(255, 255, 255, 0.1);
 }
+
 .trainer-card {
   position: relative;
   width: 326px;
   height: 272px;
 }
+
 .trainer-card .details {
   position: absolute;
   bottom: 10px;
@@ -363,11 +420,13 @@ select {
   padding: 10px;
   border-radius: 5px;
 }
+
 .details .name {
   color: white;
   font-size: 18px;
   font-weight: 900;
 }
+
 .details .desig {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -379,6 +438,7 @@ footer .container {
   padding-top: 66px;
   padding-bottom: 35px;
 }
+
 .columns {
   display: flex;
   justify-content: space-between;
@@ -390,32 +450,38 @@ footer .container {
 .footer-logo {
   max-width: 450px;
 }
+
 .footer-logo h3 {
   font-size: 70px;
   font-style: italic;
   margin-bottom: 20px;
 }
+
 .column h3 {
   font-size: 32px;
   font-weight: 700;
   color: white;
   margin-bottom: 40px;
 }
+
 .column ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .column ul li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   font-size: 23px;
   font-weight: 400;
 }
+
 hr {
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 36px;
 }
+
 #copyright {
   font-size: 20px;
   font-weight: 400;
@@ -427,13 +493,16 @@ hr {
 .orangy-red {
   color: #e6533c;
 }
+
 .container {
   max-width: 1060px;
   margin: 100px auto;
 }
+
 .brand-name {
   font-weight: 800;
 }
+
 .section-heading {
   color: white;
   font-size: 48px;
@@ -441,6 +510,7 @@ hr {
   text-align: center;
   margin-bottom: 14px;
 }
+
 .section-desc {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -456,27 +526,33 @@ hr {
     max-width: 90%;
     margin: 0 auto;
   }
+
   .menu {
     display: none;
   }
+
   .hamburger {
     display: block;
     color: white;
     font-size: 30px;
     cursor: pointer;
   }
+
   .banner {
     margin: 0;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .banner-heading {
     font-size: 2.25rem;
   }
+
   .banner-heading,
   .banner-desc {
     max-width: 255px;
   }
+
   .workouts {
     top: 65px;
     right: -30px;
@@ -486,59 +562,74 @@ hr {
     flex-direction: column;
     justify-content: center;
   }
+
   .tutorials {
     width: 156px;
     height: 74px;
     top: 255px;
     left: 25px;
   }
+
   .tutorials > .red-circle {
     height: 30px;
     width: 30px;
   }
+
   .count {
     font-size: 18px;
     font-weight: 900;
     margin-bottom: 3px;
   }
+
   .workout-desc,
   .tutorial-desc {
     font-size: 10px;
   }
+
   .section-heading {
     font-size: 32px;
   }
+
   .schedule-habits {
     flex-direction: column;
   }
+
   .run-extra {
     margin-top: 66px;
     flex-direction: column;
     gap: 30px;
   }
+
   .texts .section-heading {
     font-size: 32px;
   }
+
   .image-section {
     max-width: 100%;
     min-width: 100%;
   }
+
   .primary-btn {
     max-width: 100%;
     min-width: 100%;
   }
+
   .bmi-heading .texts {
     margin: 30px 0px;
   }
+
   .calculate-bmi {
     margin-top: -34px;
   }
+
   .chart .bmi-heading {
     margin-bottom: 24px;
   }
+
   .calculate-bmi {
     margin-top: -34px;
   }
+
   .calculate-bmi .container {
     flex-direction: column;
   }
