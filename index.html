@@ -162,6 +162,62 @@
           </p>
         </div>
       </section>
+
+      <!-- how-to-calculate-BMI-section -->
+      <section class="calculate-bmi bg-color">
+        <div class="container">
+          <div class="chart">
+            <h3 class="bmi-heading">BMI Calculator Chart</h3>
+            <table class="chart-table">
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweigth</td>
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 - and Above</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+          <div class="calc">
+            <div class="texts">
+              <h3 class="bmi-heading">Calculate your BMI</h3>
+              <p class="bmi-desc">
+                Enter your height and weight to calculate your Body Mass Index
+                (BMI). Discover if you're underweight, normal weight,
+                overweight, or obese.
+              </p>
+            </div>
+
+            <form class="calc-info" action="">
+              <input class="height" type="number" placeholder="Height/cm" />
+              <input class="weight" type="number" placeholder="Weight/kg" />
+              <input age type="number" placeholder="Age" />
+              <select class="gender" id="gender" name="gender">
+                <option value="Sex">Select Sex</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+              <select class="activity" id="activity" name="activity">
+                <option value="activity">Select an activity Factor</option>
+              </select>
+            </form>
+            <button class="primary-btn">Calculate</button>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
